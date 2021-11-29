@@ -18,4 +18,9 @@ def pythagorean_triplet(lim)
   end
 end
 
+
+
+begin_time = Time.now
 puts pythagorean_triplet(780)
+end_time = Time.now
+puts "solution took #{end_time - begin_time} seconds"
